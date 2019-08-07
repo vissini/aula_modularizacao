@@ -1,0 +1,25 @@
+{
+    "name": "vissini/blog",
+    "description": "",
+    "authors": [
+        {
+            "name": "Diego Vissini",
+            "email": "diego@vissini.com.br"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Blog\\Providers\\BlogServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Blog\\": ""
+        }
+    }
+}
